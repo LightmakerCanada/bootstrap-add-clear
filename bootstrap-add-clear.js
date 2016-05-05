@@ -106,6 +106,8 @@
     });
   };
 
+  $.fn[pluginName].Constructor = Plugin;
+
   var defaults = $.fn[pluginName].defaults = {
     closeSymbol: "",
     symbolClass: 'glyphicon glyphicon-remove-circle',
